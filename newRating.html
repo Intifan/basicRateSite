@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Rating</title>
+</head>
+<header>
+    <div id="top-header">
+        <div id="logo">
+            <!--Logo Here-->
+        </div>
+        <nav>
+            <div id=navMenu>
+                <ul>
+                    <li><a href="/boilerplate rating site/index.html">Home</a></li>
+                    <li><a href="/boilerplate rating site/newRating.html">Submit a Rating</a></li>
+                    <li><a href="#">Browse Ratings</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<body>
+    <h1>Search Existing Ratings</h1>
+    <p>search thingy here</p>
+    <h2>Submit a New Rating</h2> <!--Clicking this opens form below-->
+    <div id="newSubForm">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="imdb">Link to their IMDB page:</label><br>
+            <input type="url" id="imdb" name="imdb"><br>
+            <label for="sname">Name of show you worked on with them:</label><br>
+            <input type="text" id="sname" name="sname"><br>
+            <label for="rating">Overall Rating</label><br>
+            <input type="range" id="rating" name="rating" min="0" max="5"><br>
+            <label for="repeatWork">Would you work with them again?</label><br>
+            <input type="button" value="Yes">
+            <input type="button" value="Definitely Not"><br>
+            <label for="repeatWork">Are they safe?</label><br>
+            <input type="button" value="Yes">
+            <input type="button" value="Definitely Not"><br>
+            <label for="repeatWork">Have you been harassed, sexually or otherwise, by them?</label><br>
+            <input type="button" value="Unfortunately, Yes">
+            <input type="button" value="Thankfully, No"><br>
+            <label for="feedback">Any and everything else you'd like to say about them:</label><br>
+            <textarea id="feedback" name="feedback" rows="12" cols="60"></textarea><br>
+        </form>
+    </div>
+</body>
+</html>
